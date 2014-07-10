@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C09A2BD7196E79E60022A815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A2BD6196E79E60022A815 /* main.m */; };
 		C09A2BDA196E79E60022A815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A2BD9196E79E60022A815 /* AppDelegate.m */; };
-		C09A2BDD196E79E60022A815 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A2BDC196E79E60022A815 /* FirstViewController.m */; };
-		C09A2BE0196E79E60022A815 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A2BDF196E79E60022A815 /* SecondViewController.m */; };
 		C09A2BE3196E79E60022A815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09A2BE1196E79E60022A815 /* Main.storyboard */; };
 		C09A2BE5196E79E60022A815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09A2BE4196E79E60022A815 /* Images.xcassets */; };
 		C09A2BF1196E79E60022A815 /* SampleAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A2BF0196E79E60022A815 /* SampleAnimationsTests.m */; };
@@ -32,10 +30,6 @@
 		C09A2BD6196E79E60022A815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C09A2BD8196E79E60022A815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C09A2BD9196E79E60022A815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C09A2BDB196E79E60022A815 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C09A2BDC196E79E60022A815 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C09A2BDE196E79E60022A815 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C09A2BDF196E79E60022A815 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C09A2BE2196E79E60022A815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C09A2BE4196E79E60022A815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C09A2BEA196E79E60022A815 /* SampleAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,10 +78,6 @@
 			children = (
 				C09A2BD8196E79E60022A815 /* AppDelegate.h */,
 				C09A2BD9196E79E60022A815 /* AppDelegate.m */,
-				C09A2BDB196E79E60022A815 /* FirstViewController.h */,
-				C09A2BDC196E79E60022A815 /* FirstViewController.m */,
-				C09A2BDE196E79E60022A815 /* SecondViewController.h */,
-				C09A2BDF196E79E60022A815 /* SecondViewController.m */,
 				C09A2BE1196E79E60022A815 /* Main.storyboard */,
 				C09A2BE4196E79E60022A815 /* Images.xcassets */,
 				C09A2BD4196E79E60022A815 /* Supporting Files */,
@@ -220,9 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09A2BE0196E79E60022A815 /* SecondViewController.m in Sources */,
 				C09A2BDA196E79E60022A815 /* AppDelegate.m in Sources */,
-				C09A2BDD196E79E60022A815 /* FirstViewController.m in Sources */,
 				C09A2BD7196E79E60022A815 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
